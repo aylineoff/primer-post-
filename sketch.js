@@ -10,7 +10,6 @@ function draw() {
   colorMode(HSB, 360, 100, 100);
   fill(random(0,360), 100 , 100);
 ellipse(mouseX, mouseY, d, d);
-  
 }
 
 function keyPressed() {
